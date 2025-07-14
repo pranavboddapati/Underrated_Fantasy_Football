@@ -11,7 +11,11 @@ This project predicts the most underrated fantasy football players by position u
 ## Files
 - `underrated_model.ipynb`: Full model with feature engineering
 - `fantasy.db`: SQLite database with cleaned data
-- `import_to_sql.py`: Code to load data into SQL
+- `create_fantasydb.py`: Code to create database
+- `import_fantasydata_to_mysql.py`: code to import data into table in database
+- `export_to_sqlite.py`: Code to create .db file
+- `fantasy.db`: database containing player statistics
+- `fantasy_data.csv` - csv containing player statistics
 
 ## Usage
 Run the Colab notebook or execute Python scripts to preprocess and analyze data.
